@@ -1,20 +1,24 @@
+//Library
 import express from "express";
-import http from "http";
 import morgan from "morgan";
 import { Server as SocketServer } from "socket.io";
+import cors from "cors";
+
+//Modulo Node js
+import http from "http";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
+//Config
 import { PORT } from "./config.js";
-import cors from "cors";
 
 // Initializations
 const app = express();
 const server = http.createServer(app);
 const io = new SocketServer(server, {
-  // cors: {
-  //   origin: "http://localhost:3000",
-  // },
+  /* cors: {
+    origin: "http://localhost:3000",
+  }, */
 });
 const __dirname = dirname(fileURLToPath(import.meta.url));
 

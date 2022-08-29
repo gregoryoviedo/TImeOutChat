@@ -1,9 +1,8 @@
 import io from "socket.io-client";
 import { useEffect, useState } from "react";
 
-//const socket = io("http://localhost:4000");
+//const socket = io("http://localhost:3001");
 const socket = io("/");
-
 
 export const useMessage = () => {
   const [message, setMessage] = useState("");
