@@ -72,3 +72,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## For the Backend use
+### `yarn add express socket.io cors morgan`
+
+init the proyect with
+### `npm init -y`
+
+and finally build the app and serve the client with
+### `yarn run build`
