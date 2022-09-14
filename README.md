@@ -1,6 +1,6 @@
 # Temporary-Chat
 
-## App Build with node js and express, react js, socket io
+## App Build with Node Js and Express Js, React js, Socket.io
 
 # Getting Started with Create React App
 
